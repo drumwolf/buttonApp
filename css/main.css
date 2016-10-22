@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+#button-app {
+  margin: 40px auto 0;
+  text-align: center;
+  width: 500px;
+}
+.form-count,
+.form-submit {
+  border: solid 1px #999;
+  border-radius: 5px;
+  display: inline-block;
+  font: 14px Arial;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 auto;
+  outline: none;
+  padding: 0;
+  text-align: center;
+}
+.form-count {
+  margin-right: 5px;
+  width: 100px;
+}
+.form-submit {
+  width: 40px;
+}
+.button-grid {
+  background: #E7E7E7;
+  border: solid 1px #666;
+  display: block;
+  margin: 10px auto 0;
+  min-height: 302px;
+  overflow: hidden;
+  width: 302px;
+}
+.button {
+  border: solid 1px #633;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  float: left;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+.size-2 .button {
+  width: 140px;
+  height: 140px;
+  margin: 5px;  
+}
+.size-3 .button {
+  width: 94px;
+  height: 94px;
+  margin: 3px;  
+}
+.size-4 .button {
+  width: 71px;
+  height: 71px;
+  margin: 2px;  
+}
